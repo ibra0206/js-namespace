@@ -12,7 +12,7 @@ var IBRA0206 = {
         
     function changeColour(ev){
         box.style.borderColor = "green";
-        box.currentTarget.style.backgroundColor = "pink";
+        box.style.backgroundColor = "pink";
     }    
         
     function toggleHighlight(ev){
