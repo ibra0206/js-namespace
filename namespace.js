@@ -8,7 +8,7 @@ var IBRA0206 = {
     
     box.addEventListener("click", changeColour);
     box.addEventListener("mouseover", toggleHighlight);
-    box.addEventListener("mouseout", toggleHighlight)     
+    box.addEventListener("mouseout", toggleHighlight);     
         
     function changeColour(ev){
         box.style.borderColor = "green";
