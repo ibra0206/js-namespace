@@ -11,8 +11,8 @@ var IBRA0206 = {
     box.addEventListener("mouseout", toggleHighlight)     
         
     function changeColour(ev){
-        ev.currentTarget.style.borderColor = "pink";
-        ev.currentTarget.style.backgroundColor = "green";
+        box.style.borderColor = "pink";
+        box.currentTarget.style.backgroundColor = "green";
     }    
         
     function toggleHighlight(ev){
