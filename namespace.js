@@ -12,7 +12,7 @@ var IBRA0206 = {
         
     function bclick(ev){
         ev.currentTarget.style.borderColor = "pink";
-        ev.currentTarget.style.backgroundColor = "#fff";
+        ev.currentTarget.style.backgroundColor = "red";
     }    
         
     function toggleHighlight(ev){
