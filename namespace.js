@@ -3,14 +3,14 @@ var IBRA0206 = {
     var box = document.createElement("div");
     box.classList.add("box");   
     box.textContent = "IBRA0206";    
-    var boxes = document.querySelector("#boxes");    
+    var boxes = document.getElementById("boxes");    
     boxes.appendChild(box);
     
-    box.addEventListener("click", changeColour);
+    box.addEventListener("click", bclick);
     box.addEventListener("mouseover", toggleHighlight);
     box.addEventListener("mouseout", toggleHighlight);     
         
-    function changeColour(ev){
+    function bclick(ev){
         ev.currentTarget.style.borderColor = "white";
         ev.currentTarget.style.backgroundColor = "pink";
     }    
